@@ -10,7 +10,7 @@ from typing import Dict, List, Optional
 # !! IMPORTANT !!
 # 1. Replace 'YOUR_BOT_TOKEN' with your actual bot token.
 #    Consider using environment variables for security: os.getenv('DISCORD_BOT_TOKEN')
-BOT_TOKEN = 'YOUR_BOT_TOKEN'
+BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 # 2. Make sure the bot has the required intents enabled in the Discord Developer Portal:
 #    - SERVER MEMBERS INTENT
 #    - MESSAGE CONTENT INTENT
